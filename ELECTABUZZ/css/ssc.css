@@ -1,0 +1,276 @@
+html{
+	height: 100%;
+	scroll-behavior: smooth;
+	}
+	#homepagetext h1{
+	text-align: center;
+	color: black;	
+	font-weight: 800;
+    font-size: 40px;
+	}
+	#homepagetext p{
+	/*padding-left: 20px;
+	padding-right: 20px;*/
+	color:#ffffff;	
+	font-weight:500; 	
+	font-size: 20px;
+	}
+	#homepagetext{
+	text-align: center;
+	/*padding: 28%;*/
+	padding-top: 37%;
+
+	}
+	#homepagetext p{
+		color: #ffffff;
+	}
+	#homeimage{
+	background: url('BGSOCIETY.jpg');
+	background-size: cover;
+    background-position: center;
+    height: 700px;
+	}
+	#firstBox
+	{
+		font-family: 'Lato', sans-serif;
+		font-size: 18px;
+	}
+
+	.description h1
+	{
+		font-family: 'PT Serif', serif;
+	}
+	
+
+
+@media only screen and (max-width: 400px) {
+	.splitview{min-height: 100vw;}
+	.panel{min-height: 100vw;}
+	.panel .content{min-height: 100vw;}
+	.panel img{width: 80%;}
+	.panel .description{width: 15%;display: none;}
+	.carousel-item .image{height: 300px;}
+	.carousel-item .image1{height: 300px;}
+	 .contUs .row{padding-bottom: 10px;}
+	.bottom .hide{text-align: right;padding-right: 15px;color:black;}
+	.top .hide{font-color:white;}
+	#move{margin-top:450px; }
+	.aboutus #abtContent{padding-left: 30px; padding-right: 30px;}
+	#Services #serviceheading{font-size: 4em;}
+	
+
+} 
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (max-width: 600px) {
+	.splitview{min-height: 100vw;}
+	.panel{min-height: 100vw;}
+	.panel .content{min-height: 100vw;}
+	.panel img{width: 80%;}
+	.panel .description{width: 15%;display: none;}
+	.carousel-item .image{height: 300px;}
+	.carousel-item .image1{height: 300px;}
+	 .contUs .row{padding-bottom: 10px;}
+	.bottom .hide{text-align: right;padding-right: 15px;color:black;}
+	.top .hide{font-color:white;}
+	#move{margin-top:450px; }
+	.aboutus #abtContent{padding-left: 30px; padding-right: 30px;}
+	#Services #serviceheading{font-size: 4em;}
+
+
+} 
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	.splitview{min-height: 50vw;}
+	.panel{min-height: 50vw;}
+	.panel .content{min-height: 50vw;}
+	.panel img{width: 50%;}
+	.panel .description{width: 17%;display: inline;}
+	.carousel-item .image{height: 400px;}
+	.carousel-item .image1{height: 400px;}
+	.panel .hide{display: none;}
+} 
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	.splitview{min-height: 45vw;}
+	.panel{min-height: 45vw;}
+	.panel .content{min-height: 45vw;}
+	.panel img{width: 50%;}
+	.panel .description{width: 18%;display: inline;}
+	.carousel-item .image{height: 350px;}
+	.carousel-item .image1{height: 350px;}
+	.panel .hide{display: none;}
+} 
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.splitview{min-height: 40vw;}
+	.panel{min-height: 40vw;}
+	.panel .content{min-height: 40vw;}
+	.panel img{width: 40%;}
+	.panel .description{width: 22%;display: inline;}
+	.panel .hide{display: none;}
+}
+	
+
+
+
+
+
+
+	
+
+
+
+.is{
+	width: 320px;
+	height:220px;
+	margin: 10px 10px;
+}
+
+
+h3{
+	text-align: center;
+}
+
+#bgimage{
+	display:table;
+	width:100%;
+	padding:0;
+	margin: 0 auto;
+	background-image: url('BGSOCIETY.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: relative;
+	overflow:hidden;
+
+}
+
+#content{
+	padding-top: 30%;
+	text-align: center;
+
+}
+
+
+#whatisssc{
+	font-size: 4em; 
+}
+
+
+
+
+/*About us and contact us*/
+
+
+ .aboutus h2 {
+    font: 33px sans-serif;
+    margin-top: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Righteous', cursive;
+}
+
+.aboutus h2.background {
+    position: relative;
+ 
+    
+    
+}
+    .aboutus span { 
+        /* to hide the lines from behind the text, you have to set the background color the same as the container */ 
+
+        background: black;
+        padding: 0 15px; 
+        z-index: 25;
+        font-size: 2.0em;
+        color: #DADEDF;
+        position: relative;
+    }
+
+
+ h2.double:before { 
+    /* this is just to undo the :before styling from above */
+    border-top: none; 
+}
+
+ h2.double:after {
+    border-bottom: 1px dashed white;
+
+    content: "";
+    margin: 0 auto; /* this centers the line to the full width specified */
+    position: absolute;
+    top: 45%; left: 0; right: 0;
+    width: 84%;
+    z-index: 0;
+}
+ #abtContent
+{
+padding-left: 120px;
+padding-right: 120px;
+font-size: 1.5em;
+}
+
+
+
+
+
+ #abtusbg{
+background-image: url("contact.jpg");
+background-size: cover;
+background-repeat: no-repeat;
+/*padding-left: 100px;*/
+color: #DADEDF;
+font-family: 'Amaranth', sans-serif;
+}
+.rotateimg180 {
+  -webkit-transform:rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+.rotateimg18 {
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+.rotateimg1 {
+  -webkit-transform:rotate(360deg);
+  -moz-transform: rotate(360deg);
+  -ms-transform: rotate(360deg);
+  -o-transform: rotate(360deg);
+  transform: rotate(360deg);
+}
+
+#abtusbg img{
+	border-radius: 50%;
+}
+
+
+/*For Vision*/
+#visionTable
+{
+	border-collapse: separate;
+	border-spacing: 30px;
+}
+#vision th
+{
+	font-size: 3em;
+	font-family: 'Righteous', cursive;
+}
+#vision td
+{
+	font-size: 1.5em;
+	font-family: 'Amaranth', sans-serif;
+}
+
+
+
+
+
+

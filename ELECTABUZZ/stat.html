@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Statistics</title>
+	<style type="text/css" href="css\story.css"></style>
+	<style type="text/css">
+		#tb{
+			border-collapse: separate;
+	border-spacing: 20px;
+		}
+		html{
+			padding-left: 10px;
+
+		}
+		#analysis{
+			padding-left: 30px;
+			padding-right: 30px;
+			font-size: 1.5em;
+		}
+		.power h1{
+			text-align: center;
+		}
+		#visionTable
+{
+	border-collapse: separate;
+	border-spacing: 30px;
+}
+	#vision p{
+		font-size: 1.5em;
+	}
+	body{
+		background: url('3.jpg');
+		background-size: cover;
+    background-position: center;
+	}
+	ul li{
+		font-size: 20px;
+	}
+	th{
+		font-size: 30px;
+	}
+	td{
+		font-size: 19px;
+	}
+	</style>
+	<link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script> 
+</head>
+<body>
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+    <ul class="navbar-nav ml-auto">
+    
+       <li class="nav-item"><a class="nav-link" href="index.html"><h3 id="homePage"> BACK TO HOMEPAGE</h3></a></li>
+    </ul>
+      
+  </div>
+   
+</nav>
+	<div><br><br><br></div>
+	<div class="power">
+		<h1>Power Analysis</h1>
+		<P id="analysis">To estimate total power generated we embedded Peizoelectric transducer plates within one-kilometer stretch single lane road on an highway and calculated the total power generation within this one-kilometer due to this Peizoelectric transducer.</P>
+		<h3>Factors to be considered while electrcity generation</h3>
+		<p><ul><li>Dimensions of road</li>
+<li>	Load intensity due to
+<ul><li>	Average speed of vehicle</li>
+<li>	Rate of traffic</li>
+<li>friction of coefficient</li></ul></li>
+<li>	Time duration (elapsed time of power generation)</li></ul></p>
+<h3>Assumption</h3>
+<ul><li>	Traffic rate of 500 vehicles per hour.</li>
+<li>Speed of travel 100 kmph.</li></ul>
+<h3>Power estimation from one-kilometer stretch road.</h3>
+<table align="center" id="tb">
+	<tr>
+		<td>Number of piezoelectric generator</td>
+		<td>3280</td>
+	</tr>
+	<tr>
+		<td>Traffic rate per hour</td>
+		<td>500</td>
+	</tr>
+	<tr>
+		<td>Speed of travel (kmph)</td>
+		<td>100</td>
+	</tr>
+	<tr>
+		<td>Load traffic rate</td>
+		<td>444.44</td>
+	</tr>
+	<tr>
+		<td>Total power/piezo/km/hr</td>
+		<td>57.083</td>
+	</tr>
+	<tr>
+		<td>Total power (Wmin)</td>
+		<td>3120.556</td>
+	</tr>
+	<tr>
+		<td>Total power (kWhr)</td>
+		<td>187.233</td>
+	</tr>
+</table>
+<br>
+<h3>Cost Estimation</h3>
+<h4>Mumbai-Pune Express Highway</h4>
+<h5>Facts</h5>
+<ul><li>Length of highway=94.5km</li>
+<li>Cost of electricity for 1kWhr by Government=Rs 5.</li>
+<li>6 lane road</li>
+</ul>
+<div id="vision">
+<div class="container">
+  <table id="visionTable">
+    <tr>
+      <th>Road Cost</th>
+      <th>Power Generated</th>
+    </tr>
+    <tr>
+      <td><ul>
+      	<li>Budget of Highway=1146cr</li>
+      	<li>Total Cost of Piezoelectric generator=62cr</li>
+      	<li>Total cost of piezoelectric road=1210cr</li>
+      </ul> </td>
+      <td><ul>
+      	<li>Total power generated in 1km in 1day=187.23kWhr</li>
+      	<li>Power generated in 1year for the complete road=3,87,48,184.65kWhr</li>
+      	<li>Cost of this electricity=19.2cr</li>
+      </ul></td>
+    </tr>
+  </table>
+  <p>The amount invested on this road return in just less than 4yrs.The average life of this piezoelectric road is 30years.So the income generated in next 26years would be a profit i.e. 520cr. </p>
+</div>
+</div>
+<p></p>
+	
+</body>
+</html>
